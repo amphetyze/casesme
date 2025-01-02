@@ -151,7 +151,7 @@ function createSkinItems() {
         <div class="skins__rarity" style="background: ${
             rarityColor[skin.rarity]
         };"></div>
-        <img src="./index_files/${skin.id}.png" alt="${
+        <img src="https://cdn.jsdelivr.net/gh/amphetyze/casesme/index_files/${skin.id}.png" alt="${
             skin.title
         }" class="skins__image" />
         <div class="skins__amount">$ ${skin.price.toLocaleString("ru-RU")}</div>
@@ -225,7 +225,7 @@ function openModal(skin) {
         <div class="skins__rarity" style="background: ${
             rarityColor[skin.rarity]
         };"></div>
-        <img src="./index_files/${skin.id}.png" alt="${
+        <img src="https://cdn.jsdelivr.net/gh/amphetyze/casesme/index_files/${skin.id}.png" alt="${
         skin.title
     }" class="skins__image" style="width: 152px; height: 107px;" />
         <div class="skins__amount">$ ${skin.price.toLocaleString("ru-RU")}</div>
