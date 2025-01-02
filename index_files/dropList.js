@@ -135,8 +135,8 @@ const generateDropBlock = (skin) => {
             <div class="drop__hr" style="background: ${
                 rarityDropColor[skin.rarity]
             };"></div>
-            <img src="./index_files/team-spirit-bg.png" alt="" class="drop__bg" />
-            <img src="./index_files/${skin.id}.png" alt="${
+            <img src="https://cdn.jsdelivr.net/gh/amphetyze/casesme/index_files/team-spirit-bg.png" alt="" class="drop__bg" />
+            <img src="https://cdn.jsdelivr.net/gh/amphetyze/casesme/index_files/${skin.id}.png" alt="${
         skin.title
     }" class="drop__image" />
             <div class="drop__text-block">
